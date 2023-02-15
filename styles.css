@@ -1,20 +1,16 @@
 body {
   text-align: center;
-  background-image: linear-gradient(#1a1917, #273e40, #33292e);
+  background-color: #008c9e;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: hsl(0, 24%, 79%);
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #9b0e4d; 
   animation-name: example;
   animation-duration: 4s;
 
-}
-@keyframes example {
-from {background-color: red;}
-to {background-color: yellow;}
 }
 
 footer {
@@ -22,7 +18,7 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
+.q {
   background-image: url("images/tom1.png");
 }
 
@@ -65,12 +61,12 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #f8d9d9;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #c00218;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
